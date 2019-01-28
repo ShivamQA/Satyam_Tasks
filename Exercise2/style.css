@@ -1,0 +1,145 @@
+body
+{
+ background-image:url("http://starkovtattoo.spb.ru/images/000/DSC100041536.jpg");
+    background-attachment:fixed;
+  background-size:cover;
+}
+.home h1
+{
+  color: white;
+}
+.home_matter p{
+  color: white;
+}
+.sidenav{
+  display:flex;
+  flex-direction:column;
+  height: 100%;
+  width: 3.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding-top: 4rem;
+  
+  &_img1{
+    padding: 0.2rem;
+  }
+  &_img2{
+    padding: 0.2rem;
+  }
+  &_img2{
+    padding: 0.2rem;
+  }
+  &_img1 img{
+    height: 2.1875rem;
+    width: 3.125rem;
+  }
+  &_img2 img{
+     height: 2.1875rem;
+    width: 2.5rem;
+  }
+  &_img3 img
+  {
+   height: 2.1875rem;
+    width: 2.5rem;
+  }
+ 
+  
+
+}
+.home{
+  
+  font-size:200%;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+ 
+}
+  .home_matter{
+    
+  font-size:200%;
+   display:flex;
+    flex-direction:column;
+    text-align: center;
+  justify-content:center;
+    justify-content:space-around;
+  color:black;
+  }
+.home_matter button{
+  opacity:0.5;
+  font-size:2rem;
+  border-radius:1rem;
+}
+
+.gallery
+{ 
+    display:flex;
+    justify-content:center;
+    background-color: lightgray;
+  
+}
+
+.card
+{
+ display:flex;
+  
+ flex-wrap: wrap;
+  justify-content: space-between;
+  
+ background-color: lightgrey;
+  
+
+    padding-top: 2rem;
+    padding-left: 5rem;
+  padding-right:2rem;
+
+}
+.card img{
+    width: 100%;
+  }
+
+.about{
+  display:flex;
+  padding-left:5rem;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  background-color: Gainsboro;
+  align-items: flex-start;
+  justify-content: flex;
+  &_matter
+  {
+    padding-left: 2rem;
+    background-color: gray;
+    width: 500px;
+  }
+  &_matter img{
+    height:1.2rem;
+    width:1.2rem;
+  }
+  &_form
+  {
+    
+    background-color: lightgray;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    padding-right:6rem;
+   
+  }
+  &_form button
+  {
+   
+  color:blue;
+  font-size:1.5rem;
+  border-radius:1rem;
+
+  }
+}
+  .footer{
+  background-color: silver;
+    padding-left: 2rem;
+    padding-top: 3.125rem;
+    bottom : 0;
+    left: 0;
+  }
+
